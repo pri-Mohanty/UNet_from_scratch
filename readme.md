@@ -49,9 +49,9 @@ The model is a **Conditional UNet** built from scratch in PyTorch.
 
 ## 3. Training Dynamics
 
-*   **Weights & Biases Project Link:** [https://wandb.ai/priyanshu-mohanty366-none/ayna-ml-assignment-polygons?nw=nwuserpriyanshumohanty366]
 
 *   **Loss Curves:**
+
     ![Average_training_loss](avg_training_loss.png)
     ![Average_validation_loss](avg_validation_loss.png)
 
