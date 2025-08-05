@@ -2,7 +2,7 @@
 
 This project implements a conditional UNet from scratch in PyTorch to colorize polygon images based on a text input. The model takes a grayscale image of a polygon and a color name (e.g., "blue") and outputs the same polygon filled with the specified color.
 
-**Submitted by:** [Priyanshu Mohanty]
+**Submitted by:** Priyanshu Mohanty
 
 ---
 
