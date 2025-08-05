@@ -49,10 +49,11 @@ The model is a **Conditional UNet** built from scratch in PyTorch.
 
 ## 3. Training Dynamics
 
-*   **Weights & Biases Project Link:** [**INSERT YOUR PUBLIC WANDB PROJECT LINK HERE**]
+*   **Weights & Biases Project Link:** [https://wandb.ai/priyanshu-mohanty366-none/ayna-ml-assignment-polygons?nw=nwuserpriyanshumohanty366]
 
 *   **Loss Curves:**
-    *(Go to your wandb run, take a screenshot of your `avg_train_loss` and `avg_val_loss` charts, and embed the image here.)*
+    ![Average_training_loss](avg_training_loss.png)
+    ![Average_validation_loss](avg_validation_loss.png)
 
     The training and validation loss curves show a healthy learning progression. The validation loss consistently decreased alongside the training loss, indicating that the model generalized well to unseen data without significant overfitting. The model checkpointing strategy correctly saved the model at the epoch with the lowest validation loss.
 
